@@ -1,0 +1,120 @@
+button {
+    background: none;
+    border: 0;
+}
+
+*:focus-visible {
+    outline: 1px solid var(--secondary);
+}
+
+@import "./supcel-CSS/supcel.css";
+@import "../features/ztyles.css";
+@import "./palletes.css";
+/* body {
+    height: auto;
+} */
+
+:root {
+    --primary-color: teal;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+:root {
+    --scroll-thumb-clr: rgb(94, 93, 93);
+    --scroll-track-clr: rgb(195, 190, 190);
+    --scroll-width: 14px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--scroll-thumb-clr);
+}
+::-webkit-scrollbar-track {
+    background-color: var(--scroll-track-clr);
+}
+::-webkit-scrollbar {
+    width: var(--scroll-width);
+    overflow-y: hidden;
+}
+
+.light-mode {
+    --scroll-thumb-clr: #999;
+    --scroll-thumb-clr: #333;
+}
+
+.invalid-text {
+    color: #ee4848;
+}
+.invalid-bg {
+    background-color: #ee4848;
+}
+.success-text {
+    color: #49f16d;
+}
+.success-bg {
+    background-color: #49f16d;
+}
+
+.truncate {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.justify-right {
+    justify-content: flex-end;
+}
+
+.bg-none {
+    background-color: transparent;
+    outline: 1px solid #555;
+}
+
+.typography {
+    color: #333333;
+}
+.black-text {
+    color: #222;
+}
+
+.dark-mode .typography {
+    color: #c6c5c5;
+}
+.text-muted {
+    color: #7c7c7c;
+}
+.dark-mode .text-muted {
+    color: #888;
+}
+
+.flex-1 {
+    flex-grow: 1;
+}
+
+.flex-50 {
+    flex-basis: 48%;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.shrink {
+    flex-shrink: 1;
+}
+
+.svg-wrapper {
+    width: 30px;
+    height: 30px;
+}
+
+.rm-default {
+    background: none;
+    border: none;
+}
+
+.btn:focus {
+    outline: 1px solid var(--textColor);
+}

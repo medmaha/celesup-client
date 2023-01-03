@@ -1,0 +1,14 @@
+#mobileNavbarLinks {
+	/* top: 94.5vh; */
+	box-shadow: 1px -1px 10px rgba(0, 0, 0, 0.5);
+	display: none !important;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 1rem;
+}
+
+@media (max-width: 480px) {
+	#mobileNavbarLinks {
+		display: flex;
+	}
+}

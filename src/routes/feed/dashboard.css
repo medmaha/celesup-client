@@ -1,0 +1,27 @@
+/* Redo/Todo */
+/* @media (max-width: 920px) {
+  .activity{
+    display: none;
+  }
+} */
+
+@media (max-width: 739px) {
+    #trendingFeed {
+        display: none;
+    }
+
+    #mainFeed {
+        max-width: 500px;
+        padding: 0;
+    }
+
+    #feedsContainer {
+        padding: 0 5px;
+    }
+
+    /* .dashboard-container {
+		display: flex;
+		justify-content: center;
+		padding: 0 0.5rem;
+	} */
+}

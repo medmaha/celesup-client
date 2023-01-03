@@ -1,0 +1,52 @@
+:root {
+    --primaryColor--: var(--primary);
+    --secondaryColor--: var(--secondary);
+    --onSurfaceColor--: var(--card);
+    --onSuccessColor--: var(--primary-text);
+    --onBackgroundColor--: var(--primary-text);
+}
+
+.dark-mode {
+    --primary: #15adad;
+    --primary-text: #dddddd;
+    --secondary: #4a92d1;
+    --secondary-text: #e2dede;
+    --card: #16181c;
+    --card-secondary: #4e5053;
+    --neutral: #111;
+}
+
+.bg-neutral {
+    background-color: var(--neutral);
+}
+
+.light-mode {
+    --primary: #15adad;
+    --primary-text: #dddddd;
+    --secondary: #4a92d1;
+    --secondary-text: #e2dede;
+    --card: #fff;
+    --card-secondary: #999;
+}
+
+.card {
+    background-color: var(--card);
+}
+.card-secondary {
+    background-color: var(--card-secondary);
+}
+
+.bg-primary {
+    background-color: var(--primary);
+    color: var(--primary-text);
+}
+.text-primary {
+    color: var(--primary);
+}
+.bg-secondary {
+    background-color: var(--secondary);
+    color: var(--secondary-text);
+}
+.text-secondary {
+    color: var(--secondary);
+}
