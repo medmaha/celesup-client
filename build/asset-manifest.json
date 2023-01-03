@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/celesup-client/static/css/main.499b2eb8.css",
+    "main.js": "/celesup-client/static/js/main.49b1ae62.js",
+    "index.html": "/celesup-client/index.html",
+    "main.499b2eb8.css.map": "/celesup-client/static/css/main.499b2eb8.css.map",
+    "main.49b1ae62.js.map": "/celesup-client/static/js/main.49b1ae62.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.499b2eb8.css",
+    "static/js/main.49b1ae62.js"
+  ]
+}

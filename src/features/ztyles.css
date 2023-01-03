@@ -96,7 +96,8 @@
     /* min-width: 100px; */
     min-width: 250px;
     min-height: 100px;
-    height: 100%;
+    height: max-content;
+    max-height: calc(100vh - 200px);
 
     display: flex;
     flex-direction: column;

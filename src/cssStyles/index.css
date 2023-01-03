@@ -1,6 +1,10 @@
 button {
-    background: none;
     border: 0;
+    background-color: var(--primary);
+}
+
+button:not(.btn, .btn-small, .btn-large) {
+    background: inherit;
 }
 
 *:focus-visible {

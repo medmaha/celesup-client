@@ -64,7 +64,10 @@ const UserProfile = () => {
     if (error === "Request failed with status code 404") return <PageNotFound />
     return (
         <div className="d-flex justify-content-center user__profile">
-            <div className="maxwidth-850-px mx-__ width-100">
+            <div
+                className="maxwidth-850-px mx-__ width-100"
+                style={{ minHeight: "60vh" }}
+            >
                 {!!Object.keys(profile).length && (
                     <>
                         <ProfileImages
