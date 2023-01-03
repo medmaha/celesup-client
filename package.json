@@ -1,6 +1,6 @@
 {
     "name": "frontend",
-    "homepage": "http://medmaha.github.io/celesup",
+    "homepage": "https://medmaha.github.io/celesup-client",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
