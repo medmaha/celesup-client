@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/celesup/static/css/main.26563e76.css",
-    "main.js": "/celesup/static/js/main.88488cc3.js",
-    "index.html": "/celesup/index.html",
-    "main.26563e76.css.map": "/celesup/static/css/main.26563e76.css.map",
-    "main.88488cc3.js.map": "/celesup/static/js/main.88488cc3.js.map"
+    "main.css": "/celesup-client/static/css/main.26563e76.css",
+    "main.js": "/celesup-client/static/js/main.f975f861.js",
+    "index.html": "/celesup-client/index.html",
+    "main.26563e76.css.map": "/celesup-client/static/css/main.26563e76.css.map",
+    "main.f975f861.js.map": "/celesup-client/static/js/main.f975f861.js.map"
   },
   "entrypoints": [
     "static/css/main.26563e76.css",
-    "static/js/main.88488cc3.js"
+    "static/js/main.f975f861.js"
   ]
 }
